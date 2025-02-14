@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\APInet8.props" />
+</Project>
