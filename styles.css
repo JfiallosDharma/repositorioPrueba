@@ -5,8 +5,8 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: radial-gradient(circle at top, #a5d8ff, #3b5bdb);
-  color: #ffffff;
+  background: #ffeb3b;
+  color: #1a1a1a;
 }
 
 .container {
