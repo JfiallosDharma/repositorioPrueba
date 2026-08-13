@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MundoMascotas – Guía Informativa</title>
+    <style>
+      .info-section {
+        max-width: 900px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 1.5rem;
+      }
+      .section-card {
+        background: #fff;
+        border-radius: 12px;
+        padding: 1.5rem;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        border-left: 5px solid #f4a261;
+      }
+      .section-card h2 { margin-top: 0; color: #333; }
+      .section-card ul { padding-left: 1.2rem; }
+      .section-card li { margin-bottom: 0.4rem; color: #555; }
+      .section-card.tips { border-left-color: #2a9d8f; grid-column: 1 / -1; }
+    </style>
+ <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Hero -->
+    <div class="container">
+      <h1>🐾 MundoMascotas</h1>
+      <p>Tu guía completa sobre el cuidado, amor y bienestar de tus mascotas favoritas.</p>
+      <button class="button" id="btn">Haz clic aquí</button>
+    </div>
+
+    <!-- Sección informativa -->
+    <main class="info-section">
+
+      <section class="section-card">
+        <h2>🐶 Perros</h2>
+        <p>Los perros son animales sociales que necesitan ejercicio diario, alimentación balanceada y atención veterinaria regular. Son leales y forman vínculos muy fuertes con sus dueños.</p>
+        <ul>
+          <li>Vacunación anual CAMBIOS NUEVOS</li>
+          <li>Baño cada 2–4 semanas</li>
+          <li>Paseos diarios de al menos 30 minutos</li>
+          <li>Dieta según raza y edad</li>
+        </ul>
+      </section>
+
+      <section class="section-card">
+        <h2>🐱 Gatos</h2>
+        <p>Los gatos son independientes pero afectuosos. Requieren un ambiente seguro, caja de arena limpia y enriquecimiento ambiental para mantenerse saludables y felices.</p>
+        <ul>
+          <li>Caja de arena limpia a diario</li>
+          <li>Juguetes para estimulación mental</li>
+          <li>Visitas al veterinario 1–2 veces al año</li>
+          <li>Agua fresca siempre disponible</li>
+        </ul>
+      </section>
+
+      <section class="section-card">
+        <h2>🐦 Aves</h2>
+        <p>Las aves como loros y canarios necesitan jaulas espaciosas, compañía frecuente y una dieta rica en semillas, frutas y verduras frescas.</p>
+        <ul>
+          <li>Jaula amplia con perchas variadas</li>
+          <li>Interacción social diaria</li>
+          <li>Dieta variada: semillas, frutas y verduras</li>
+          <li>Evitar corrientes de aire frío</li>
+        </ul>
+      </section>
+
+      <section class="section-card">
+        <h2>🐠 Peces</h2>
+        <p>Los peces son mascotas tranquilas y estéticas. Mantener la calidad del agua, el filtrado y la temperatura correcta es esencial para su salud.</p>
+        <ul>
+          <li>Cambio parcial de agua semanal</li>
+          <li>Filtro limpio y funcionando</li>
+          <li>Temperatura estable según la especie</li>
+          <li>No sobrealimentar</li>
+        </ul>
+      </section>
+
+      <section class="section-card tips">
+        <h2>💡 Consejos Generales</h2>
+        <p>Sin importar la mascota que tengas, estos consejos son universales para garantizar su bienestar:</p>
+        <ul>
+          <li>✅ Visitas veterinarias preventivas regulares</li>
+          <li>✅ Amor, paciencia y dedicación diaria</li>
+          <li>✅ Ambiente limpio y seguro</li>
+          <li>✅ Identificación: placa o microchip</li>
+          <li>✅ Esterilización para evitar sobrepoblación</li>
+        </ul>
+      </section>
+
+    </main>
+    <script src="micode.js"></script>
+  </body>
+</html>
